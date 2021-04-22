@@ -1,0 +1,22 @@
+{
+  "name": "desarrollo-polkadot-kusama-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colm3na/desarrollo-polkadot-kusama-nodejs.git"
+  },
+  "author": "@mariopino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Colm3na/desarrollo-polkadot-kusama-nodejs/issues"
+  },
+  "homepage": "https://github.com/Colm3na/desarrollo-polkadot-kusama-nodejs#readme",
+  "dependencies": {
+    "@polkadot/api": "^4.6.2"
+  }
+}
