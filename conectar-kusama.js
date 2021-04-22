@@ -16,6 +16,11 @@ async function main () {
   ]);
 
   console.log(`You are connected to chain ${chain} using ${nodeName} v${nodeVersion}`);
+
+  // Retrieve the chain & node information information via rpc calls
+  const balance = await api.derive.balances.all('E7ncQKp4xayUoUdpraxBjT7NzLoayLJA4TuPcKKboBkJ5GH')
+
+  console.log(JSON.stringify(balance, null, 2));
 }
 
 main().catch(console.error).finally(() => process.exit());
